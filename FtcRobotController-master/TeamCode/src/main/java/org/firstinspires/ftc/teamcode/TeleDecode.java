@@ -520,7 +520,7 @@ public class TeleDecode extends LinearOpMode {
                 gamepad1.runRumbleEffect(shortRumble);
             }
         } else if (gamepad1_l_bumper_now) {
-            if (robot.turntablePos > 0.07) {
+            if (robot.turntablePos > 0.08) {
                 robot.turntablePos -= 0.001;
             } else {
                 gamepad1.runRumbleEffect(shortRumble);
